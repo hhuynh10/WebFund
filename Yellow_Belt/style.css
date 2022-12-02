@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#leaf {
+    background-color: #1be3c2;
+    width: 40px;
+    border-radius: 5px;
+}
+#h1 {
+    font-weight: lighter;
+}
+#cart {
+    width: 40px;
+}
+.searchbar {
+    width: 850px;
+    border-radius: 25px;
+    padding: 0 15px;
+    height: 30px;
+    border: 2px solid grey;
+    background-color: rgb(243, 238, 238);
+}
+.btn {
+    width: 50px;
+    border: none;
+    background-color: white;
+}
+.bottomnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 3px solid black;
+    margin-bottom: 30px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.ad {
+    text-align: center;
+    word-spacing: 25px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.body {
+    display: flex;
+    flex-flow: row wrap;
+}
+.box1 {
+    width: 750px;
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1be3c2;
+}
+.box1top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 325px;
+    color: white;
+    padding: 40px;
+    font-size: 35px;
+    white-space: initial;
+}
+.box1img {
+    width: 380px;
+}
+.box1line2 {
+    display: flex;
+    align-items: center;
+}
+
+.box2 {
+    width: 430px;
+    margin-left: 20px;
+}
+.box2img {
+    width: 430px;
+}
+.box2top {
+    margin-bottom: 20px;
+}
+.box2bottom {
+    background-color: #1be3c2;
+    height: 72px;
+    color: white;
+    padding: 0 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.arrow {
+    width: 30px;
+}
+.box3 {
+    margin-top: 20px;
+    width: 1200px;
+    background-color: #85fff1;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box3img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.box3div {
+    text-align: center;
+}
+#alertbox {
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: sticky;
+    bottom: 0;
+}
+#a {
+    color: blue;
+    text-decoration: underline;
+}
+.alertimg {
+    width: 50px;
+}
+.alertbtn {
+    width: 100px;
+    height: 25px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    color: white;
+    background-color: teal;
+}
+.alertp {
+    word-spacing: 5px;
+}
