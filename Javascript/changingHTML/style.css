@@ -1,0 +1,18 @@
+#poke-img {
+    height: 200px;
+    width: 200px;
+}
+
+.poke-btn {
+    height: 40px;
+    width: 60px;
+    background-color: aquamarine;
+    color: white;
+}
+
+.like{
+    height: 40px;
+    width: 80px;
+    background-color: blueviolet;
+    color: yellow;
+}
