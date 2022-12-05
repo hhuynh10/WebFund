@@ -62,7 +62,6 @@ function randomPizza(){
     return pizza
 }
 
-
 let pizza1 = pizzaOven("deep dish", "traditional", "mozzarella", ["pepperoni", "sausage"])
 let pizza2 = pizzaOven("hand tossed", "marinara", ["mozzarella", "feta"], ["mushrooms", "olives", "onions"])
 
