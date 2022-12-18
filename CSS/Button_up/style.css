@@ -7,6 +7,10 @@ div{
     margin: 20px 50px;
 }
 
+button{
+    display: block;
+}
+
 .btn1 {
     background: transparent;
     border-radius: 25px;
