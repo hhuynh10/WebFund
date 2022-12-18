@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 10px;
+    font-family: 'Rubik Vinyl', cursive;
+}
+h1{
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+h1 span {
+    color: aqua;
+    padding-left: 0;
+}
+
+h2{
+    background-color: blueviolet;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3{
+    background-color: aquamarine;
+    color: black;
+    text-decoration: underline;
+    text-align: right;
+}
