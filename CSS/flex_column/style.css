@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    width: 960px;
+
+}
+
+.col{
+    flex: 1;
+    background-color: rgb(10, 100, 122);
+    height: 30px;
+    margin-right: 10px;
+}
+
+.col-2{
+    flex: 2;
+    background-color: rgb(10, 100, 122);
+    height: 30px;
+    margin-right: 10px;
+}
+
+.col-3{
+    flex: 3;
+    background-color: rgb(10, 100, 122);
+    height: 30px;
+    margin-right: 10px;
+}
