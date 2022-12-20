@@ -122,3 +122,10 @@ img{
 .link{
     border-top: 2px solid rgba(169, 158, 158, 0.75);
 }
+
+.span1, .span2{
+    background-color: rgb(155, 123, 83);
+    border-radius: 50%;
+    width: 50px;
+    padding: 2px;
+}
