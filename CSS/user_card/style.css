@@ -59,7 +59,7 @@ h4, p, h1{
 
 .nav-left {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-basis: 35%;
 }
