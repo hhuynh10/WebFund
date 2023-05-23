@@ -71,3 +71,22 @@ button{
     box-shadow: 5px 5px 2px 2px rgb(53, 53, 217, 0.3) ;
     transition: 0.7s;
 }
+
+.text-color{
+    width: 120px;
+    background: linear-gradient(to left, teal, blue, purple);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 5s linear infinite;
+}
+@keyframes animation {
+    0%{
+        background-position: 0 100%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0 100%;
+    }
+}
