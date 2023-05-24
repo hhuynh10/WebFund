@@ -1,0 +1,16 @@
+.header-name{
+    text-align: center;
+}
+
+.section1, .section3{
+    background-color: green;
+    color: aliceblue;
+}
+
+li:first-child{
+    color: aqua;
+}
+
+ol li:last-child{
+    text-decoration: line-through;
+}
